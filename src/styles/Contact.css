@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Bernier";
+    src: url("bernier-regular.ttf");
+}
+
+.container {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    transform: translateY(50%);
+    transition: 250ms;
+}
+
+.show-contacts {
+    transform: translateY(0%);
+    transition: 250ms;
+}
+
+.banner {
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+    background: #000;
+}
+
+.banner a {
+    color: white;
+    text-decoration: none;
+    font-family: "Bernier";
+}
+
+.banner a:hover {
+    color: gainsboro;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.button-container a {
+    font-size: 2rem;
+    margin: 0 1em;
+    color: black;
+}
