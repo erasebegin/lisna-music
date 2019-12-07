@@ -1,7 +1,7 @@
 import React from "react";
 
-const SampleCard = () => {
+const AudioCard = () => {
     return(<h2>sample card</h2>)
 }
 
-export default SampleCard
+export default AudioCard

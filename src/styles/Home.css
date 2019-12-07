@@ -46,6 +46,10 @@ nav ul {
     width: 100%;
 }
 
+nav li {
+    margin-top: 3em;
+}
+
 .nav-link {
     font-family: "Bernier", sans-serif;
     text-decoration: none;
@@ -65,5 +69,13 @@ nav ul {
     nav ul {
         flex-direction: column;
         text-align: center;
+    }
+
+    .video-bg {
+        display: none;
+    }
+
+    nav li {
+        margin-top: 1em;
     }
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import Contact from "./Contact"
-import SampleCard from "./SampleCard"
+import SampleCard from "./AudioCard"
 import SearchBar from "./SearchBar"
 
-function Samples() {
+function FreeStuff() {
   return (
     <div className="container-samples">
       <h1>Samples</h1>
@@ -14,4 +14,4 @@ function Samples() {
   );
 }
 
-export default Samples;
+export default FreeStuff;

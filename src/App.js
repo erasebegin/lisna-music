@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Samples from "./components/Samples";
+import FreeStuff from "./components/FreeStuff";
 
 import "./App.css";
 
@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/samples" component={Samples} />
+          <Route path="/free-stuff" component={FreeStuff} />
         </Switch>
       </div>
     </Router>
