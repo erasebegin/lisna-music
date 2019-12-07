@@ -61,6 +61,10 @@ nav li {
     color: gainsboro;
 }
 
+.nav-link:focus {
+    border: 1px solid white;
+}
+
 .nav-link:visited {
     color: white;
 }
