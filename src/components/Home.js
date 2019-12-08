@@ -4,7 +4,6 @@ import Contact from "./Contact";
 import "../styles/Home.css";
 import lisnaLogo from "../media/lisna-logo.svg";
 import lisnaVideo from "../media/Lisna-compressed.mov";
-import lisnaStill from "../media/lisna-still.png";
 
 const Home = () => {
   const [displayContact, setDisplayContact] = useState(true);

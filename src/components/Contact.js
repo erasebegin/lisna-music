@@ -25,7 +25,7 @@ function Contact(props) {
           <i className="fab fa-twitter-square" />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/lisna.music"
           target="_blank"
           rel="noopener noreferrer"
         >
