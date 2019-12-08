@@ -18,7 +18,7 @@ function Contact(props) {
       </div>
       <div className="button-container">
         <a
-          href="https://www.twitter.com"
+          href="https://www.twitter.com/lisna_music"
           target="_blank"
           rel="noopener noreferrer"
         >

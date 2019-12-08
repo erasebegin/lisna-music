@@ -71,7 +71,8 @@ nav ul {
 }
 
 .nav-link:focus {
-    border: 1px solid white;
+    border: none;
+    color: ghostwhite;
 }
 
 .nav-link:visited {
