@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/Contact.css";
+import {FaSoundcloud, FaTwitterSquare, FaInstagramSquare, FaEnvelopeSquare} from "react-icons/fa"
 
 function Contact(props) {
-    console.log(props.show)
+  
   return (
     <div
       className={props.show === true ? "container" : "container show-contacts"}
@@ -13,7 +14,7 @@ function Contact(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          New Tracks on Soundcloud
+          New Tracks on Soundcloud <FaSoundcloud color="white"/>
         </a>
       </div>
       <div className="button-container">
@@ -22,24 +23,24 @@ function Contact(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-twitter-square" />
+          <FaTwitterSquare />
         </a>
         <a
           href="https://www.instagram.com/lisna.music"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-instagram" />
+          <FaInstagramSquare />
         </a>
         <a href="mailto:music.haupt@gmail.com">
-          <i className="fas fa-envelope-square" />
+          <FaEnvelopeSquare />
         </a>
         <a
           href="https://www.soundcloud.com/lisnamusic"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-soundcloud" />
+          <FaSoundcloud />
         </a>
       </div>
     </div>

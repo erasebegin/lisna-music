@@ -23,12 +23,17 @@
     font-size: 2rem;
     display: block;
     background: #000;
+    padding: 0.5rem 0;
 }
 
 .banner a {
     color: white;
     text-decoration: none;
     font-family: "Bernier";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .banner a:hover {
@@ -39,6 +44,7 @@
     display: flex;
     justify-content: center;
     background: white;
+    padding: 0.5rem 0;
 }
 
 .button-container a {
